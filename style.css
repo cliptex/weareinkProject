@@ -1,0 +1,141 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*{
+  font-family: 'Inter', sans-serif;
+}
+/* Nav Bar Start */
+.navbar{
+  padding-bottom: 10rem;
+.navbar-nav{
+  min-width: 100% !important;
+  min-height: 100% !important;
+  cursor: pointer;
+}
+}
+.offcanvas-body .nav-link{
+  color: rgb(199, 198, 198) !important;
+  font-size: 4.2rem !important;
+  line-height: 5rem !important;
+}
+.offcanvas-body .nav-link:hover{
+  color: rgb(126, 126, 126) !important;
+}
+.menuBrands{
+  position: absolute;
+  bottom: 4rem;
+  right: 2rem;
+}
+/* Nav Bar End */
+
+/* Content undernav start */
+.undernav h4{
+  color: #8f8d8d !important;
+font-weight: 300;
+  font-size: 3rem !important;
+}
+.undernav h5{
+  font-size: 3rem !important;
+  font-weight: 300;
+}
+.undernav{
+  padding-bottom: 7rem !important;
+}
+
+/* Content undernav end */
+
+
+
+
+/* Slider Start */
+
+.carousel-inner {
+  display: flex !important;
+  width: 100% !important;
+}
+
+.carousel-inner img,
+.carousel-inner video {
+  max-height: 85vh; 
+
+  width: 100vw !important;
+  object-fit: cover !important;
+
+}
+
+/* Sönük geçiş efekti için özelleştirmeler */
+.carousel-fade .carousel-item {
+  opacity: 0 !important;
+  transition: opacity 0.7s ease-in-out !important;
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1 !important;
+}
+
+.slider {
+  padding-bottom: 8rem !important;
+}
+
+/* Slider End */
+
+/* Cards Start */
+.container .row .col-12{
+  padding-bottom: 4rem !important;
+  
+}
+.container .row .col-12 div{
+  padding-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.card img{
+  transition: all 0.6s ease;
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+}
+
+.card img:hover{ 
+  transform:scale(1) ; -webkit-transform:scale(1) ; -moz-transform:scale(1) ; -ms-transform:scale(1) ; -o-transform:scale(1) ;
+}
+/* Cards End */
+
+
+/* Footer Start */
+.footer {
+  padding-bottom: 3rem;
+}
+.section2{
+padding-left: 40vw;
+}
+.footer .text-secondary{
+  padding-top: 2rem !important;
+}
+.footer div{
+  font-size: 1.6rem !important;
+}
+/* Footer End */
+
+@media screen and (max-width: 768px) {
+  .undernav h4{
+   
+  font-weight: 300;
+    font-size: 2rem !important;
+  }
+  .undernav h5{
+    font-size: 2rem !important;
+    font-weight: 300;
+  }
+  .undernav{
+    padding-bottom: 3rem !important;
+  }
+}
